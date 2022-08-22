@@ -1,6 +1,7 @@
 name: morning
 on:
-  @scheduled(corn = "55 4 * * *")//cron
+  scheduled
+  (corn = "55 4 * * *")//cron
   workflow_dispatch:
 
 jobs:
